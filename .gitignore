@@ -1,57 +1,46 @@
-﻿# Fichiers de compilation
-bin/
-obj/
-*.exe
-*.pdb
-*.dll
-*.cache
-
-# Fichiers temporaires
-*.tmp
-*.temp
-*.log
-*.bak
+﻿# Visual Studio
+.vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# Fichiers d'IDE
-.vs/
-.vscode/
-*.swp
-*.*~
-.project
-.classpath
-.settings/
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
 
-# Fichiers de sortie
+# Output
 Genie3Output/
 Genie3_Export_*.txt
 /output/
 /build/
 
-# Fichiers de donnees
-*.db
-*.mdf
-*.ldf
-
-# Fichiers secrets
-*.secret
-*.key
-*.pem
-appsettings.*.json
-
-# Fichiers OS
-Thumbs.db
-.DS_Store
-Desktop.ini
+# Executables
+*.exe
+*.dll
+*.pdb
 
 # PowerShell
 *.ps1xml
+*.pssc
+*.psm1
 
-# Fichiers de projet specifiques
-packages/
-TestResults/
-*.DotSettings
-_ReSharper.*
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
