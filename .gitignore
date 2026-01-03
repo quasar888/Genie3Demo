@@ -1,0 +1,57 @@
+﻿# Fichiers de compilation
+bin/
+obj/
+*.exe
+*.pdb
+*.dll
+*.cache
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.log
+*.bak
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Fichiers d'IDE
+.vs/
+.vscode/
+*.swp
+*.*~
+.project
+.classpath
+.settings/
+
+# Fichiers de sortie
+Genie3Output/
+Genie3_Export_*.txt
+/output/
+/build/
+
+# Fichiers de donnees
+*.db
+*.mdf
+*.ldf
+
+# Fichiers secrets
+*.secret
+*.key
+*.pem
+appsettings.*.json
+
+# Fichiers OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# PowerShell
+*.ps1xml
+
+# Fichiers de projet specifiques
+packages/
+TestResults/
+*.DotSettings
+_ReSharper.*
